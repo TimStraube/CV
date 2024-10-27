@@ -1,1 +1,1 @@
-[View the PDF](CV.pdf)
+[![PDF Preview](CV.png)](CV.pdf)
