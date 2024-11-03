@@ -33,9 +33,10 @@
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 
-\title{Cirriculum Vitea}        
+\title{Lebenslauf}        
 \name{Tim Leonard}{Straube}
-\born{06.02.2002}                       
+\social[linkedin]{tim-leonard-straube-48737a294}
+\social[github]{TimStraube}       
 \address{Sankt Stephansplatz 14}{78462}{Konstanz}
 \email{tileone02@posteo.de} 
 \renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
@@ -46,43 +47,42 @@
 
 \vspace{-1cm}
 
-\section{Education and experiance}
+\section{Projekte}
+\subsection*{Quadstar, Bachelorarbeit}
+Entwicklung eines Quadcoptersystems von Grund auf mit Python und C.
+\subsection*{Alphazero}
+Adaptation einer vorhandenen AlphaZero-Implementierung, auf Schiffe versenken mit Python und Javascript.
+\subsection{Kommunikationstechnik}
+Implementierung eines OFDM-Systems mit MATLAB.
+\subsection{Verteilte Systeme}
+Programmierung eines Mikrocontroller-Netzwerks zum Austausch von MQTT-basierten Sensorwerten, während gleichzeitig REST-Server als Benutzeroberflächen auf jedem Mikrocontroller gehostet werden mit C.
+\subsection{SmartCalc.ModuleLayout und ModuleTEC Tecnomatix Modell, Projekte bei Fraunhofer}
+Entwicklung einer Desktopapplikation zur Berechnung von Strom-Spannungs-Kennlinien von Photovoltaikmodulen aus Layout- und Topologiedaten sowie Berechnung optimaler Topologien und Zelllayouts mit MATLAB. Gefolgt von thermischen Simulationen und Produktionsmodellierung mit SimTalk.
+
+\section{Erfahrung}
 \cventry{2012 -- 2020}{Abitur}{Marie Curie Gymnasium}{Kirchzarten}{}{}
-\cventry{October 2020 -- Februar 2025}{Bachelor of Electrical Engineering and Information Technology}{HTWG}{Konstanz}{}{}
-\cventry{March 2024 -- September 2024}{Tutor for Ordinary Differential Equations, Fourier- and Laplace transforms}{HTWG}{Konstanz}{}{}
-\cventry{Summer semester 2023}{Internship}{Fraunhofer Institute for Solar Energy Systems}{Freiburg im Breisgau}{}{}
-\cventry{September 2023 -- September 2024}{Scientific assistant}{Fraunhofer Institute for Solar Energy Systems}{Freiburg im Breisgau}{}{}
-\cventry{July 2024 -- November 2024}{Bachelorthesis}{HTWG}{Konstanz}{}{}
+\cventry{Oktober 2020 -- Februar 2025}{Elektrotechnik und Informationstechnik B. Eng.}{Hochschule Konstanz}{Konstanz}{}{}
+\cventry{März 2024 -- September 2024}{Tutor, Differenzialgleichungen}{Hochschule Konstanz}{Konstanz}{}{}
+\cventry{Sommersemester 2023}{Praktikum, SmartCalc.ModuleLayout}{Fraunhofer Institut für Solare Energiesysteme}{Freiburg}{}{}
+\cventry{September 2023 -- September 2024}{SmartCalc.ModuleLayout, ModuleTEC Tecnomatix Modell}{Fraunhofer Institut für Solare Energiesysteme}{Freiburg}{}{}
+\cventry{Juli 2024 -- November 2024}{Quadstar, Bachelorarbeit}{Hochschule Konstanz}{Konstanz}{}{}
 
-\section{Projects}
-\subsection*{Quadcoptersystem, Bachelorthesis}
-Development of a quadcoptersystem from scratch, including a joystick interface, the power train and a custom flight controller. Experiments were performed in training pid-parameters as well as a control policy with deep reinforcement learning.
-\subsection*{Solving battleship with AlphaZero, Project}
-Adaptation of an existing AlphaZero implementation to play battleship superhumanly.
-\subsection{Communication theory, Project}
-Implementation of a Coded-OFDM system in MATLAB.
-\subsection{Distributed systems, Project}
-Building a microcontroller network to exchange MQTT-based sensor values while at the same time hosting REST servers as user interfaces for parameter variation on each microcontroller.
-\subsection{Projects at Fraunhofer}
-Development of a desktop application for calculating current-voltage characteristics of photovoltaic modules from layout and topology data as well as calculation of optimal topologies and cell layouts
-followed by thermal simulations and factory planning with Tecnomatix.
+\section{Informationstechnik}
+\subsection*{Programmiersprachen}
+C, Python, MATLAB, SimTalk, Javascript
+\subsection*{Betriebssysteme}
+GNU/Linux, Windows, RTOS, Zephyr
 
-\section{Information technology}
-\subsection*{Languages}
-Assembler, C, Python, MATLAB, SimTalk, Javascript
-\subsection*{Operating Systems}
-Linux, Windows, RTOS, Zephyr
-
-\section{Language}
-\subsection{German}
-Mother tongue
+\section{Sprachen}
+\subsection{Deutsch}
+Muttersprache
 \subsection{English}
-C1, Fluent in realtime
+C1, Flüssig in Echtzeit
 
 \section{Interests}
-\subsection*{Biking}
-All year round
-\subsection*{Flight and transport simulations}
-Since childhood days
+\subsection*{Mountainbiking}
+Das ganze Jahr über
+\subsection*{Flugsimulationen}
+Seit Kindheitstagen
 
 \end{document}
